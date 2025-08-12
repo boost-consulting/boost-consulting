@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BoostConsulting Banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6EE7F9"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="35" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="400" fill="url(#bg)"/>
+  <g opacity="0.6" filter="url(#glow)">
+    <path d="M-50 120 C300 40, 600 200, 950 120 S1550 80, 1700 160" stroke="url(#accent)" stroke-width="6" fill="none"/>
+    <path d="M-50 270 C300 190, 600 350, 950 270 S1550 230, 1700 310" stroke="url(#accent)" stroke-width="6" fill="none" opacity="0.5"/>
+  </g>
+  <g transform="translate(120,150)">
+    <text x="0" y="0" fill="white" font-family="Inter, sans-serif" font-size="56" font-weight="800">BoostConsulting</text>
+    <text x="0" y="56" fill="#D1D5DB" font-family="Inter, sans-serif" font-size="24" font-weight="500">AI × 高速開発で、事業を最短で前進させる。</text>
+    <rect x="0" y="90" width="520" height="4" fill="url(#accent)"/>
+  </g>
+</svg>

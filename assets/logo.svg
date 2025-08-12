@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="160" viewBox="0 0 640 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BoostConsulting Logo">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6EE7F9"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(16,16)">
+    <rect x="0" y="0" width="128" height="128" rx="28" fill="url(#g)"/>
+    <path d="M76 24 L52 72 h24 l-12 40 40-56 h-24 l20-32z" fill="#FFFFFF" opacity="0.95"/>
+  </g>
+  <g transform="translate(170,95)">
+    <text font-family="Inter, sans-serif" font-size="56" font-weight="700" fill="#111827">Boost</text>
+    <text x="210" font-family="Inter, sans-serif" font-size="56" font-weight="700" fill="url(#g)">Consulting</text>
+  </g>
+</svg>
