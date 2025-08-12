@@ -2,10 +2,6 @@
   <img src="./assets/banner.svg" alt="BoostConsulting Banner" width="100%">
 </p>
 
-<p align="center">
-  <img src="./assets/logo.svg" alt="BoostConsulting Logo" height="72">
-</p>
-
 <h1 align="center">BoostConsulting</h1>
 <p align="center"><b>AI とプロダクト開発で事業を加速させるテクノロジーパートナー</b></p>
 
@@ -19,5 +15,4 @@ BoostConsultingは、**AIエージェント × 高速開発**で、プロダク�
 - 🛡 セキュリティ & ガバナンス
 
 ## 📫 お問い合わせ
-- **Website**: https://boost-consulting.com
-- **Email**: info@boost-consulting.com
+- **Website**: https://boostconsulting.co.jp
